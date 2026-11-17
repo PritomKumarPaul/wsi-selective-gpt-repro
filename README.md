@@ -71,6 +71,8 @@ The model is gated and carries its own academic-use terms. Do not redistribute i
 
 ## Reproduce the feature-cache and MLP stages
 
+For the full rationale and step-by-step description of the two-grid sampler, mask-derived coverage targets, loss weighting, and MLP fitting procedure, see [`docs/patch_coverage_mlp_training.md`](docs/patch_coverage_mlp_training.md).
+
 Set paths to your external dataset, downloaded model, and local cache. The cache defaults to mask-aware patch-fraction regression: it samples positive patches using annotations during training, uses native mask pixels as coverage targets, and uses the selected split to train/evaluate. Validation/test sampling is mask-blind.
 
 ```bash
