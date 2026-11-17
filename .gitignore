@@ -1,0 +1,47 @@
+# Data, caches, model files, and generated run products
+data/
+datasets/
+models/
+weights/
+checkpoints/
+cache/
+features/
+runs/
+results/
+artifacts/
+outputs/
+logs/
+
+# Whole-slide images, masks, and visual outputs
+*.svs
+*.tif
+*.tiff
+*.ndpi
+*.mrxs
+*.png
+*.jpg
+*.jpeg
+*.webp
+*.pdf
+
+# Model weights and feature caches
+*.pt
+*.pth
+*.safetensors
+*.ckpt
+*.npz
+*.h5
+*.hdf5
+
+# Secrets and local/runtime files
+.env
+.env.*
+!.env.example
+*api_key*
+*.pem
+*.key
+*.log
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.DS_Store

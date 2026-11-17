@@ -1,0 +1,22 @@
+{
+  "purpose": "Exploratory CONCH-Z image-text ranking on H&E lymph-node patches; scores are not calibrated probabilities or diagnoses.",
+  "templates": [
+    "CLASSNAME",
+    "H&E-stained lymph node tissue showing CLASSNAME",
+    "a histology patch of lymph node tissue with CLASSNAME"
+  ],
+  "classes": {
+    "tumor": [
+      "metastatic breast carcinoma",
+      "metastatic carcinoma involving lymph node tissue",
+      "carcinoma cell clusters within a lymph node"
+    ],
+    "normal": [
+      "normal lymph node tissue without carcinoma",
+      "benign lymphoid tissue without tumor",
+      "non-metastatic lymph node tissue"
+    ]
+  },
+  "selection_score": "For each class, average its normalized synonym/template text embeddings and normalize that average. Rank tissue patches by cosine to tumor class embedding minus cosine to normal class embedding.",
+  "evaluation": "At fixed top-K, report the fraction of positive slides with at least one selected patch overlapping the tumor mask, patch precision among selected patches, and the same metrics for a spatial/random baseline. Normal slides have no tumor mask positives."
+}

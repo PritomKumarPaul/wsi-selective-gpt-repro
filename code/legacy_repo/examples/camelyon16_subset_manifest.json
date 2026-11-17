@@ -1,0 +1,508 @@
+{
+  "source": "https://camelyon-dataset.s3.us-west-2.amazonaws.com/",
+  "created_utc": "2026-11-10T16:30:21.547680+00:00",
+  "selection": "10 smallest eligible normal and 10 smallest fully annotated tumor training slides",
+  "excluded_non_exhaustive_tumor_ids": [
+    10,
+    15,
+    18,
+    20,
+    25,
+    29,
+    33,
+    34,
+    44,
+    46,
+    51,
+    54,
+    55,
+    56,
+    67,
+    79,
+    85,
+    92,
+    95,
+    110
+  ],
+  "budget_bytes": 30000000000,
+  "planned_bytes": 20433114164,
+  "selected_slides": [
+    {
+      "slide": "normal_108",
+      "label": "normal",
+      "image_bytes": 326607275,
+      "keys": [
+        "CAMELYON16/images/normal_108.tif",
+        "CAMELYON16/masks/normal_108_mask.tif"
+      ],
+      "total_bytes": 333500749
+    },
+    {
+      "slide": "normal_150",
+      "label": "normal",
+      "image_bytes": 752213407,
+      "keys": [
+        "CAMELYON16/images/normal_150.tif",
+        "CAMELYON16/masks/normal_150_mask.tif"
+      ],
+      "total_bytes": 760008599
+    },
+    {
+      "slide": "normal_042",
+      "label": "normal",
+      "image_bytes": 914485186,
+      "keys": [
+        "CAMELYON16/images/normal_042.tif",
+        "CAMELYON16/masks/normal_042_mask.tif"
+      ],
+      "total_bytes": 917331338
+    },
+    {
+      "slide": "normal_019",
+      "label": "normal",
+      "image_bytes": 958422074,
+      "keys": [
+        "CAMELYON16/images/normal_019.tif",
+        "CAMELYON16/masks/normal_019_mask.tif"
+      ],
+      "total_bytes": 961955890
+    },
+    {
+      "slide": "normal_004",
+      "label": "normal",
+      "image_bytes": 990100952,
+      "keys": [
+        "CAMELYON16/images/normal_004.tif",
+        "CAMELYON16/masks/normal_004_mask.tif"
+      ],
+      "total_bytes": 996651300
+    },
+    {
+      "slide": "normal_141",
+      "label": "normal",
+      "image_bytes": 991765162,
+      "keys": [
+        "CAMELYON16/images/normal_141.tif",
+        "CAMELYON16/masks/normal_141_mask.tif"
+      ],
+      "total_bytes": 1011077280
+    },
+    {
+      "slide": "normal_116",
+      "label": "normal",
+      "image_bytes": 1019309008,
+      "keys": [
+        "CAMELYON16/images/normal_116.tif",
+        "CAMELYON16/masks/normal_116_mask.tif"
+      ],
+      "total_bytes": 1039198244
+    },
+    {
+      "slide": "normal_103",
+      "label": "normal",
+      "image_bytes": 1048100028,
+      "keys": [
+        "CAMELYON16/images/normal_103.tif",
+        "CAMELYON16/masks/normal_103_mask.tif"
+      ],
+      "total_bytes": 1066450406
+    },
+    {
+      "slide": "normal_021",
+      "label": "normal",
+      "image_bytes": 1053563162,
+      "keys": [
+        "CAMELYON16/images/normal_021.tif",
+        "CAMELYON16/masks/normal_021_mask.tif"
+      ],
+      "total_bytes": 1057913926
+    },
+    {
+      "slide": "normal_016",
+      "label": "normal",
+      "image_bytes": 1104226426,
+      "keys": [
+        "CAMELYON16/images/normal_016.tif",
+        "CAMELYON16/masks/normal_016_mask.tif"
+      ],
+      "total_bytes": 1110154600
+    },
+    {
+      "slide": "tumor_091",
+      "label": "tumor",
+      "image_bytes": 546437217,
+      "keys": [
+        "CAMELYON16/images/tumor_091.tif",
+        "CAMELYON16/masks/tumor_091_mask.tif",
+        "CAMELYON16/annotations/tumor_091.xml"
+      ],
+      "total_bytes": 554880131
+    },
+    {
+      "slide": "tumor_084",
+      "label": "tumor",
+      "image_bytes": 838426602,
+      "keys": [
+        "CAMELYON16/images/tumor_084.tif",
+        "CAMELYON16/masks/tumor_084_mask.tif",
+        "CAMELYON16/annotations/tumor_084.xml"
+      ],
+      "total_bytes": 851877337
+    },
+    {
+      "slide": "tumor_075",
+      "label": "tumor",
+      "image_bytes": 936998852,
+      "keys": [
+        "CAMELYON16/images/tumor_075.tif",
+        "CAMELYON16/masks/tumor_075_mask.tif",
+        "CAMELYON16/annotations/tumor_075.xml"
+      ],
+      "total_bytes": 959924592
+    },
+    {
+      "slide": "tumor_082",
+      "label": "tumor",
+      "image_bytes": 1132287017,
+      "keys": [
+        "CAMELYON16/images/tumor_082.tif",
+        "CAMELYON16/masks/tumor_082_mask.tif",
+        "CAMELYON16/annotations/tumor_082.xml"
+      ],
+      "total_bytes": 1149688551
+    },
+    {
+      "slide": "tumor_107",
+      "label": "tumor",
+      "image_bytes": 1132948542,
+      "keys": [
+        "CAMELYON16/images/tumor_107.tif",
+        "CAMELYON16/masks/tumor_107_mask.tif",
+        "CAMELYON16/annotations/tumor_107.xml"
+      ],
+      "total_bytes": 1154134427
+    },
+    {
+      "slide": "tumor_081",
+      "label": "tumor",
+      "image_bytes": 1173305836,
+      "keys": [
+        "CAMELYON16/images/tumor_081.tif",
+        "CAMELYON16/masks/tumor_081_mask.tif",
+        "CAMELYON16/annotations/tumor_081.xml"
+      ],
+      "total_bytes": 1194433083
+    },
+    {
+      "slide": "tumor_087",
+      "label": "tumor",
+      "image_bytes": 1261833404,
+      "keys": [
+        "CAMELYON16/images/tumor_087.tif",
+        "CAMELYON16/masks/tumor_087_mask.tif",
+        "CAMELYON16/annotations/tumor_087.xml"
+      ],
+      "total_bytes": 1284456590
+    },
+    {
+      "slide": "tumor_093",
+      "label": "tumor",
+      "image_bytes": 1285324938,
+      "keys": [
+        "CAMELYON16/images/tumor_093.tif",
+        "CAMELYON16/masks/tumor_093_mask.tif",
+        "CAMELYON16/annotations/tumor_093.xml"
+      ],
+      "total_bytes": 1308237242
+    },
+    {
+      "slide": "tumor_096",
+      "label": "tumor",
+      "image_bytes": 1322041176,
+      "keys": [
+        "CAMELYON16/images/tumor_096.tif",
+        "CAMELYON16/masks/tumor_096_mask.tif",
+        "CAMELYON16/annotations/tumor_096.xml"
+      ],
+      "total_bytes": 1345163771
+    },
+    {
+      "slide": "tumor_105",
+      "label": "tumor",
+      "image_bytes": 1347343550,
+      "keys": [
+        "CAMELYON16/images/tumor_105.tif",
+        "CAMELYON16/masks/tumor_105_mask.tif",
+        "CAMELYON16/annotations/tumor_105.xml"
+      ],
+      "total_bytes": 1376009846
+    }
+  ],
+  "files": [
+    {
+      "key": "CAMELYON16/README.md",
+      "size": 3642,
+      "md5": "294379eb7070edaa110ad4b58f5ab242"
+    },
+    {
+      "key": "CAMELYON16/license.txt",
+      "size": 7260,
+      "md5": "ea475f078dcd6ddba96e155a89bc33ee"
+    },
+    {
+      "key": "CAMELYON16/checksums.md5",
+      "size": 55360,
+      "md5": null
+    },
+    {
+      "key": "CAMELYON16/masks/normal_108_mask.tif",
+      "size": 6893474,
+      "md5": "8b3edfb5a8258535663cdea7e56a1fb2"
+    },
+    {
+      "key": "CAMELYON16/images/normal_108.tif",
+      "size": 326607275,
+      "md5": "3714c9bb0d83aa0702aa48526dc340c1"
+    },
+    {
+      "key": "CAMELYON16/masks/tumor_091_mask.tif",
+      "size": 8357394,
+      "md5": "1e41a2e7c9d5cc966d9100120574cc3a"
+    },
+    {
+      "key": "CAMELYON16/annotations/tumor_091.xml",
+      "size": 85520,
+      "md5": "e3dba1c127ca99b242108ac87080ea81"
+    },
+    {
+      "key": "CAMELYON16/images/tumor_091.tif",
+      "size": 546437217,
+      "md5": "13d1499b683705112a18916189b522a2"
+    },
+    {
+      "key": "CAMELYON16/masks/normal_150_mask.tif",
+      "size": 7795192,
+      "md5": "b36e7f78d2c23475d27d6d3440fff53d"
+    },
+    {
+      "key": "CAMELYON16/images/normal_150.tif",
+      "size": 752213407,
+      "md5": "3995344fd58dd724d03e770eeced6997"
+    },
+    {
+      "key": "CAMELYON16/masks/tumor_084_mask.tif",
+      "size": 13325918,
+      "md5": "ad687cd80efbf381701d1e2fce49dadb"
+    },
+    {
+      "key": "CAMELYON16/annotations/tumor_084.xml",
+      "size": 124817,
+      "md5": "e74d1f9c275eca6b90bcde19b6f3f058"
+    },
+    {
+      "key": "CAMELYON16/images/tumor_084.tif",
+      "size": 838426602,
+      "md5": "be2668c308fcbddca6d29ff2d9c9788c"
+    },
+    {
+      "key": "CAMELYON16/masks/normal_042_mask.tif",
+      "size": 2846152,
+      "md5": "acaf8a74209c2e5546b444d3fd868e67"
+    },
+    {
+      "key": "CAMELYON16/images/normal_042.tif",
+      "size": 914485186,
+      "md5": "b7dfa8a25bb44a4725aadd2a67b88709"
+    },
+    {
+      "key": "CAMELYON16/masks/tumor_075_mask.tif",
+      "size": 22591384,
+      "md5": "117e580dad1d4580c6fa70579e557dd5"
+    },
+    {
+      "key": "CAMELYON16/annotations/tumor_075.xml",
+      "size": 334356,
+      "md5": "5bfbbeb4039ca5e45d2b6ed8deff357f"
+    },
+    {
+      "key": "CAMELYON16/images/tumor_075.tif",
+      "size": 936998852,
+      "md5": "785ced428498716457981069dc457a46"
+    },
+    {
+      "key": "CAMELYON16/masks/normal_019_mask.tif",
+      "size": 3533816,
+      "md5": "3bb00de74917ce2f0ec4efe985f7c68c"
+    },
+    {
+      "key": "CAMELYON16/images/normal_019.tif",
+      "size": 958422074,
+      "md5": "edb296b49fae9af861c23bfc2e567d10"
+    },
+    {
+      "key": "CAMELYON16/masks/tumor_082_mask.tif",
+      "size": 17285634,
+      "md5": "dd1d86804ca0695414d48fc6add7ed45"
+    },
+    {
+      "key": "CAMELYON16/annotations/tumor_082.xml",
+      "size": 115900,
+      "md5": "9fdca09f6f2963a588a0b91fcec93076"
+    },
+    {
+      "key": "CAMELYON16/images/tumor_082.tif",
+      "size": 1132287017,
+      "md5": "33ba0a6c8c14698eaa9325f513b3ddc7"
+    },
+    {
+      "key": "CAMELYON16/masks/normal_004_mask.tif",
+      "size": 6550348,
+      "md5": "2a021ba76e6f055cfb748dfac4dc168a"
+    },
+    {
+      "key": "CAMELYON16/images/normal_004.tif",
+      "size": 990100952,
+      "md5": "b049f1c2cf59f839039f2e45e036d630"
+    },
+    {
+      "key": "CAMELYON16/masks/tumor_107_mask.tif",
+      "size": 21155936,
+      "md5": "e4cf9a9a88922f6a0f5ad9ea51e89e8c"
+    },
+    {
+      "key": "CAMELYON16/annotations/tumor_107.xml",
+      "size": 29949,
+      "md5": "f04cab862df5cec0d5fd3082a03f7072"
+    },
+    {
+      "key": "CAMELYON16/images/tumor_107.tif",
+      "size": 1132948542,
+      "md5": "948e583f6531bb9dcff08d543f23c3b3"
+    },
+    {
+      "key": "CAMELYON16/masks/normal_141_mask.tif",
+      "size": 19312118,
+      "md5": "4c207680b85e62db8bfc06f6f8ec27a4"
+    },
+    {
+      "key": "CAMELYON16/images/normal_141.tif",
+      "size": 991765162,
+      "md5": "d3ac7b2c796bf812082c4c39985a858f"
+    },
+    {
+      "key": "CAMELYON16/masks/tumor_081_mask.tif",
+      "size": 21121838,
+      "md5": "2421fcb92b6a1006a05156c47c18b938"
+    },
+    {
+      "key": "CAMELYON16/annotations/tumor_081.xml",
+      "size": 5409,
+      "md5": "51c0a092da46a8d7b80caa1571b27930"
+    },
+    {
+      "key": "CAMELYON16/images/tumor_081.tif",
+      "size": 1173305836,
+      "md5": "e6bbb3a88b49aac78e1c3d8dfb76ca22"
+    },
+    {
+      "key": "CAMELYON16/masks/normal_116_mask.tif",
+      "size": 19889236,
+      "md5": "7f482a2985e131923383f40707b99e9c"
+    },
+    {
+      "key": "CAMELYON16/images/normal_116.tif",
+      "size": 1019309008,
+      "md5": "2ba1c7ae813c9608fc1f5cf8cac9ea3d"
+    },
+    {
+      "key": "CAMELYON16/masks/tumor_087_mask.tif",
+      "size": 22586254,
+      "md5": "b09d9e8a82d9417c0f420076847d3a37"
+    },
+    {
+      "key": "CAMELYON16/annotations/tumor_087.xml",
+      "size": 36932,
+      "md5": "d2d2c15f54bdbb158fb5321db5fc7ebb"
+    },
+    {
+      "key": "CAMELYON16/images/tumor_087.tif",
+      "size": 1261833404,
+      "md5": "19318c79942c346f6a2df493a5e1db2e"
+    },
+    {
+      "key": "CAMELYON16/masks/normal_103_mask.tif",
+      "size": 18350378,
+      "md5": "b8f39fe970cbd2b63208e9c9411bf97a"
+    },
+    {
+      "key": "CAMELYON16/images/normal_103.tif",
+      "size": 1048100028,
+      "md5": "bb75b1fe4ea818384982cc49b7d045fa"
+    },
+    {
+      "key": "CAMELYON16/masks/tumor_093_mask.tif",
+      "size": 22900548,
+      "md5": "89cd6242ee855475065fadb3550d6b59"
+    },
+    {
+      "key": "CAMELYON16/annotations/tumor_093.xml",
+      "size": 11756,
+      "md5": "6059631da27535935be10b68347e1fd8"
+    },
+    {
+      "key": "CAMELYON16/images/tumor_093.tif",
+      "size": 1285324938,
+      "md5": "80b9b5c12457616928921015218ffec4"
+    },
+    {
+      "key": "CAMELYON16/masks/normal_021_mask.tif",
+      "size": 4350764,
+      "md5": "dc572a8f542a8b3c53b3d1b28ff8a02f"
+    },
+    {
+      "key": "CAMELYON16/images/normal_021.tif",
+      "size": 1053563162,
+      "md5": "8ca95397291d44e722711c4753e9e9d1"
+    },
+    {
+      "key": "CAMELYON16/masks/tumor_096_mask.tif",
+      "size": 22844814,
+      "md5": "d3235df785c7f868f2bf676edfec8eca"
+    },
+    {
+      "key": "CAMELYON16/annotations/tumor_096.xml",
+      "size": 277781,
+      "md5": "9241ab3f9915c519abde458b2a795de0"
+    },
+    {
+      "key": "CAMELYON16/images/tumor_096.tif",
+      "size": 1322041176,
+      "md5": "422aeb04eb7ebe8b8d1ed2ca286ee13d"
+    },
+    {
+      "key": "CAMELYON16/masks/normal_016_mask.tif",
+      "size": 5928174,
+      "md5": "a5c956cc27917fd814504acb929d8af5"
+    },
+    {
+      "key": "CAMELYON16/images/normal_016.tif",
+      "size": 1104226426,
+      "md5": "60cb9f039bba9ab89df4383e40c3c95d"
+    },
+    {
+      "key": "CAMELYON16/masks/tumor_105_mask.tif",
+      "size": 28251028,
+      "md5": "ab6e76d829acc2d5b16fbd32f8da8596"
+    },
+    {
+      "key": "CAMELYON16/annotations/tumor_105.xml",
+      "size": 415268,
+      "md5": "e267f79b0bec08147a64d38de1e34bbc"
+    },
+    {
+      "key": "CAMELYON16/images/tumor_105.tif",
+      "size": 1347343550,
+      "md5": "b96c681e4195836b90a1c311c88994b2"
+    }
+  ]
+}
